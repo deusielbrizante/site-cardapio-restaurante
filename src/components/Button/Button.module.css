@@ -1,0 +1,29 @@
+.categories{
+    width: 150px;
+    margin: 0 10px;
+}
+
+.categories_icon{
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.categories button{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.on{
+    background-color: #daa520;
+}
