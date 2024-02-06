@@ -26,3 +26,9 @@
     font-weight: 600;
     color: #daa520;
 }
+
+@media screen and (max-width: 425px){
+    .container input::placeholder{
+        font-size: 12px;
+    }
+}

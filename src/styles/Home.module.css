@@ -33,7 +33,7 @@
 .banner p {
     font-family: "Dancing Script", cursive;
     color: #daa520;
-    width: 600px;
+    max-width: 600px;
     font-size: 36px;
 }
 
@@ -52,4 +52,38 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px;
+}
+
+@media screen and (max-width: 1024px){
+    .banner{
+        height: 40vh;
+    }
+
+    .banner p{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .banner{
+        height: 30vh;
+    }
+
+    .banner h1{
+        font-size: 36px;
+    }
+
+    .banner p{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .banner h1{
+        font-size: 26px;
+    }
+
+    .banner p{
+        font-size: 18px;
+    }
 }

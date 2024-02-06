@@ -1,4 +1,6 @@
 .categories{
+    display: flex;
+    flex-grow: 1;
     width: 150px;
     margin: 0 10px;
 }
